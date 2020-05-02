@@ -1,0 +1,6 @@
+D:\C#\GitHub\PhoneShop\PhoneShop\Helper\bin\Debug\Helper.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\Helper\bin\Debug\Helper.pdb
+D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
+D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.pdb

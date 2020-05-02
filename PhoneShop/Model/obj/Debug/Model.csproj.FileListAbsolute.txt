@@ -1,0 +1,6 @@
+D:\C#\GitHub\PhoneShop\PhoneShop\Model\bin\Debug\Model.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\Model\bin\Debug\Model.pdb
+D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.pdb

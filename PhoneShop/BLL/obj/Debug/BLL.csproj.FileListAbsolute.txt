@@ -1,0 +1,11 @@
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\bin\Debug\BLL.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\bin\Debug\BLL.pdb
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\bin\Debug\Dal.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\bin\Debug\Model.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\bin\Debug\Dal.pdb
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\bin\Debug\Model.pdb
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\obj\Debug\BLL.dll
+D:\C#\GitHub\PhoneShop\PhoneShop\BLL\obj\Debug\BLL.pdb
