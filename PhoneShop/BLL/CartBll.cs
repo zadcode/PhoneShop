@@ -17,9 +17,9 @@ namespace BLL
         /// </summary>
         /// <param name="id">用户id</param>
         /// <returns>数据表</returns>
-        public DataTable GetFavor(int id)
+        public DataTable GetCart(int id)
         {
-            //  排序为店家正序
+            //  排序为店家正序,时间倒序
             return null;
         }
 
@@ -33,7 +33,7 @@ namespace BLL
         /// <param name="price">价格</param>
         /// <param name="count">数量</param>
         /// <returns>true：成功；false：失败</returns>
-        public bool AddFavor(int id, int itemid, string color, string model, int price, int count)
+        public bool AddCart(int id, int itemid, string color, string model, int price, int count)
         {
             //  店家id根据商品id获取，时间为当前时间
             return false;
@@ -60,7 +60,7 @@ namespace BLL
         /// <param name="price">价格</param>
         /// <param name="count">数量</param>
         /// <returns>true：成功；false：失败</returns>
-        public bool UpdateFavor(int id, int itemid, string color, string model, int price, int count)
+        public bool UpdateCart(int id, int itemid, string color, string model, int price, int count)
         {
             //  店家id根据商品id获取，时间为当前时间
             return false;
