@@ -36,6 +36,7 @@ namespace BLL
         public bool ChangeState(int oid,int flag)
         {
             //  flag=1 => istate=1(改为已发货) ; flag=2 => istate=2(改为已签收)
+            //  收货时要对订单内所有的商品销量进行增加
             return false;
         }
 
