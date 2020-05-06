@@ -9,3 +9,14 @@ D:\C#\GitHub\PhoneShop\PhoneShop\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cach
 D:\C#\GitHub\PhoneShop\PhoneShop\Dal\obj\Debug\Dal.csproj.CopyComplete
 D:\C#\GitHub\PhoneShop\PhoneShop\Dal\obj\Debug\Dal.dll
 D:\C#\GitHub\PhoneShop\PhoneShop\Dal\obj\Debug\Dal.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\bin\Debug\Dal.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\bin\Debug\Dal.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\bin\Debug\Helper.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\bin\Debug\Model.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\bin\Debug\Helper.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\bin\Debug\Model.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\obj\Debug\Dal.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Dal\obj\Debug\Dal.pdb

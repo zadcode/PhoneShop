@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PhoneShop",
+    "\\PhoneShop\\Dal"
   ],
+  "SelectedNode": "\\PhoneShop\\Model",
   "PreviewInSolutionExplorer": false
 }

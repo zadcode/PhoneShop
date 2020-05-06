@@ -4,3 +4,9 @@ D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.csprojAssemblyReference
 D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
 D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.dll
 D:\C#\GitHub\PhoneShop\PhoneShop\Helper\obj\Debug\Helper.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Helper\bin\Debug\Helper.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Helper\bin\Debug\Helper.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Helper\obj\Debug\Helper.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Helper\obj\Debug\Helper.pdb

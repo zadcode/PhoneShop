@@ -4,3 +4,9 @@ D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.csprojAssemblyReference.c
 D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.dll
 D:\C#\GitHub\PhoneShop\PhoneShop\Model\obj\Debug\Model.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Model\bin\Debug\Model.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Model\bin\Debug\Model.pdb
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Model\obj\Debug\Model.dll
+C:\Users\21225\Source\Repos\PhoneShop2\PhoneShop\Model\obj\Debug\Model.pdb
