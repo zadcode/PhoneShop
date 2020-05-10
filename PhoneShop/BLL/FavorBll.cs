@@ -4,14 +4,17 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Dal;
+using Model;
 namespace BLL
 {
     /// <summary>
     /// 收藏Bll
     /// </summary>
-    public class FavorBll   
+    public class FavorBll
     {
+        FavorInfo favor = new FavorInfo();
+        string cmd;
         /// <summary>
         /// 收藏查询
         /// </summary>
@@ -20,7 +23,13 @@ namespace BLL
         public DataTable GetFavor(int id)
         {
             //  排序为时间倒序
-            return null;
+            if (id.ToString() == null || id.ToString() == "")
+                return null;
+            else
+            {
+                cmd = "select *  from favor where uid = " + id + " order by time desc";
+                return new FavorDal().Query(cmd);
+            }
         }
 
         /// <summary>
@@ -32,7 +41,20 @@ namespace BLL
         public bool AddFavor(int id, int itemid)
         {
             //  店家id根据商品id获取，时间为当前时间
-            return false ;
+            if (id.ToString() == "" || id.ToString() == null || itemid.ToString() == null || itemid.ToString() == "")
+                return false;
+            else
+            {
+                favor.iid = itemid;
+                favor.sid = new ItemDal().QuerySid(itemid).Rows[0]["sid"].ToString();
+                favor.uid = id;
+                favor.time = DateTime.Now.ToString();
+
+                if (new FavorDal().Insert(favor) == -1)
+                    return false;
+
+                return true;
+            }
         }
 
         /// <summary>
@@ -41,9 +63,20 @@ namespace BLL
         /// <param name="id">用户id</param>
         /// <param name="itemid">商品id</param>
         /// <returns>true：成功；false：失败</returns>
-        public bool Delete(int id,int itemid)
+        public bool Delete(int id, int itemid)
         {
-            return false;
+            if (id.ToString() == null || id.ToString() == "" || itemid.ToString() == null || itemid.ToString() == "")
+                return false;
+            else
+            {
+                favor.uid = id;
+                favor.iid = itemid;
+
+                if (new FavorDal().Delete(favor) == -1)
+                    return false;
+
+                return true;
+            }
         }
     }
 

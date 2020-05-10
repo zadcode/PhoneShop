@@ -29,6 +29,20 @@ namespace Dal
                 return null;
         }
 
+        /// <summary>
+        /// 查询订单id
+        /// </summary>
+        /// <param name="cmd">sql语句</param>
+        /// <returns>正确返回一个表，失败为空</returns>
+        public object QueryGetValue(string cmd)
+        {
+            if (cmd != "" && cmd != null)
+                return SqlHelper.GetValue(cmd);
+            else
+                return null;
+        }
+
+
 
         /// <summary>
         /// 订单添加
@@ -39,11 +53,11 @@ namespace Dal
         {
             try
             {
-                string sql = "insert into orders value(@uid,@sid,@ostate,@time)";
+                string sql = "insert into orders values(@uid,@sid,@ostate,@time)";
 
                 para.Add(new SqlParameter("@uid", orders.uid));
                 para.Add(new SqlParameter("@sid", orders.sid));
-                para.Add(new SqlParameter("@ostate", orders.istate));
+                para.Add(new SqlParameter("@ostate", orders.ostate));
                 para.Add(new SqlParameter("@time", orders.otime));
 
                 return SqlHelper.Update(sql, para);
@@ -68,7 +82,33 @@ namespace Dal
 
                 para.Add(new SqlParameter("@oid", orders.oid));
 
+                return SqlHelper.Update(sql, para);
+            }
+            catch
+            {
+                return -1;
+            }
+        }
 
+        /// <summary>
+        /// 订单修改
+        /// </summary>
+        /// <param name="orders">订单信息</param>
+        /// <returns>改成功返回被影响行数，失败返回-1</returns>
+        public int Update(OrdersInfo orders)
+        {
+            try
+            {
+                string sql = "update orders set";
+
+                if (orders.ostate.ToString() != null && orders.ostate.ToString() != "")
+                {
+                    sql += "ostate =@ostate";
+                    para.Add(new SqlParameter("@ostate", orders.ostate));
+                }                
+
+                sql += " where oid =@oid";
+                para.Add(new SqlParameter("@oid",orders.oid));
 
                 return SqlHelper.Update(sql, para);
             }
@@ -129,15 +169,17 @@ namespace Dal
 
                 if (orders.cid != null && orders.cid != "")
                 {
-                    sql += "cid = @cid";
+                    sql += "cid = @cid,";
                     para.Add(new SqlParameter("@cid", orders.cid));
                 }
 
                 if (orders.nums.ToString() != null && orders.nums.ToString() != "")
                 {
-                    sql += "nums = @nums";
+                    sql += "nums = @nums,";
                     para.Add(new SqlParameter("@nums", orders.nums));
                 }
+
+                sql = sql.Remove(sql.Length - 1, 1);
 
                 sql += "where oid = @oid";
                 para.Add(new SqlParameter("@oid", orders.oid));
@@ -147,7 +189,7 @@ namespace Dal
             {
                 return -1;
             }
-        }
+        }     
 
         /// <summary>
         /// 订单详细删除

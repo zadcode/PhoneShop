@@ -26,6 +26,6 @@ namespace Model
         /// <summary>
         /// 收藏时间
         /// </summary>
-        public DateTime time;
+        public string time;
     }
 }

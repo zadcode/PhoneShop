@@ -28,6 +28,7 @@ namespace Dal
             else
                 return null;
         }
+
         /// <summary>
         /// 收藏添加
         /// </summary>
@@ -37,7 +38,7 @@ namespace Dal
         {
             try
             {
-                string sql = "insert favor values(@uid,@uid,@uid,@uid)";
+                string sql = "insert into favor values(@uid,@uid,@uid,@uid)";
 
                 para.Add(new SqlParameter("@uid", favor.uid));
                 para.Add(new SqlParameter("@sid", favor.sid));
@@ -62,8 +63,11 @@ namespace Dal
         {
             try
             {
-                string sql = "delete favor where uid = @uid";
+                string sql = "delete favor where uid = @uid and sid = @sid";
+
                 para.Add(new SqlParameter("@uid", favor.uid));
+                para.Add(new SqlParameter("@sid", favor.sid));
+
                 return SqlHelper.Update(sql, para);
             }
             catch

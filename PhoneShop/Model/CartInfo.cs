@@ -46,7 +46,7 @@ namespace Model
         /// <summary>
         /// 加入时间
         /// </summary>
-        public DateTime time;
+        public string time;
 
     }
 }

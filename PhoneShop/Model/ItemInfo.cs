@@ -31,7 +31,7 @@ namespace Model
         /// <summary>
         /// 商品状态
         /// </summary>
-        public int istate;
+        public bool istate;
 
         /// <summary>
         /// 商品添加的时间
@@ -42,5 +42,16 @@ namespace Model
         /// 商品销量
         /// </summary>
         public int sales;
+
+
+        /// <summary>
+        /// 商品型号
+        /// </summary>
+        public string type;
+
+        /// <summary>
+        /// 商品价格
+        /// </summary>
+        public int price;
     }
 }

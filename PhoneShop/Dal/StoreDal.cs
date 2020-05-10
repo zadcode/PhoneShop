@@ -38,7 +38,7 @@ namespace Dal
 
             try
             {
-                string sql = "insert into store values (@sid @brand @spwd)";
+                string sql = "insert into store values (@sid,@brand,@spwd)";
 
                 para.Add(new SqlParameter("@sid",store.sid));
                 para.Add(new SqlParameter("@brand", store.brand));

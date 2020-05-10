@@ -36,7 +36,7 @@ namespace Model
         /// <summary>
         /// 订单状态
         /// </summary>
-        public int istate;
+        public int ostate;
 
         /// <summary>
         /// 商品价格
@@ -56,6 +56,6 @@ namespace Model
         /// <summary>
         /// 订单时间
         /// </summary>
-        public DateTime otime;
+        public string otime;
     }
 }

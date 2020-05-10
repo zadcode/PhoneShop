@@ -22,7 +22,8 @@ namespace Dal
         /// </summary>
         /// <param name="cmd">sql语句</param>
         /// <returns>正确返回一个表，失败为空</returns>
-        public DataTable Query(string cmd) {
+        public DataTable Query(string cmd)
+        {
             if (cmd != string.Empty)
                 return SqlHelper.Query(cmd);
             else
@@ -34,7 +35,8 @@ namespace Dal
         /// </summary>
         /// <param name="users">用户信息</param>
         /// <returns>改成功返回被影响行数，失败返回-1</returns>
-        public int Insert(UsersInfo users) {
+        public int Insert(UsersInfo users)
+        {
 
             try
             {
@@ -48,7 +50,7 @@ namespace Dal
                 para.Add(new SqlParameter("@address", users.address));
 
                 //返回到sqlHelper中
-                return SqlHelper.Update(sql,para);
+                return SqlHelper.Update(sql, para);
             }
             catch
             {
@@ -62,7 +64,8 @@ namespace Dal
         /// </summary>
         /// <param name="users">用户信息</param>
         /// <returns>改成功返回被影响行数，失败返回-1</returns>
-        public int Update(UsersInfo users) {
+        public int Update(UsersInfo users)
+        {
             try
             {
                 string sql = "update users set";
@@ -80,12 +83,18 @@ namespace Dal
                     para.Add(new SqlParameter("@upwd", users.upwd));
                 }
 
+                if (users.address != null && users.address != "")
+                {
+                    sql += " address =@address,";
+                    para.Add(new SqlParameter("@address", users.address));
+                }
+
                 //删除“，”并拼装
                 sql = sql.Remove(sql.Length - 1, 1);
-                sql += "where uid = @uid";
-                para.Add(new SqlParameter("@uid",users.uid));
+                sql += "where phone = @phone";
+                para.Add(new SqlParameter("@phone", users.phone));
 
-                return SqlHelper.Update(sql,para);
+                return SqlHelper.Update(sql, para);
             }
             catch
             {
