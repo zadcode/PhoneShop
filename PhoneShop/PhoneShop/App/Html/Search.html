@@ -1,10 +1,76 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../Js/JQuery.js"></script>
+		<script src="../Js/bootstrap.bundle.min.js"></script>
+		<script src="../Js/bootstrap.min.js"></script>
+		<script src="../Js/Global.js"></script>
+		<script src="../Js/Search.js"></script>
+		<link rel="stylesheet" href="../Css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../Css/Global.css" />
+		<link rel="stylesheet" href="../Css/Brand.css" />
+	</head>
+	<body>
 
-</body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top topBar">
+			<a class="navbar-brand mr-auto" href="HomePage.html">爱机商城</a>
+			<ul class="navbar-nav">
+				<li class="nav-item" id="loginBtn">
+					<a class="nav-link" href="Login.html">登录/注册</a>
+				</li>
+				<li class="nav-item" id="cartBtn">
+					<a class="nav-link" href="#">购物车</a>
+				</li>
+				<li class="nav-item" id="favorBtn">
+					<a class="nav-link" href="#">收藏</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="navBar fixed-top">
+			<ul>
+				<li>苹果</li>
+				<div class="navBar_more" id="apple">
+				</div>
+				<li>华为</li>
+				<div class="navBar_more" id="huawei"></div>
+				<li>OPPO</li>
+				<div class="navBar_more" id="oppo"></div>
+				<li>VIVO</li>
+				<div class="navBar_more" id="vivo"></div>
+				<li>小米</li>
+				<div class="navBar_more" id="xiaomi"></div>
+			</ul>
+			<div class="input-group mb-3 search">
+				<input type="text" class="form-control" placeholder="Search">
+				<div class="input-group-append">
+					<button class="btn btn-success" type="submit">搜索</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container div_main">
+			<div class="btn-group btn-group-lg brandBtn">
+				<button type="button" class="btn btn-primary">销量</button>
+				<button type="button" class="btn btn-primary">时间</button>
+				<button type="button" class="btn btn-primary">价格</button>
+			</div>
+
+			<div class="container items justify-content-between" id="items">
+				<div class="card itemcard">
+					<img class="card-img-top" src="../Res/apple/iPhone%207%20Plus-金色.jpg">
+					<div class="card-body">
+						<h4 class="card-title">John Doe</h4>
+						<p class="card-text">Some </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="line"></div>
+			<div class="footer_text">中原工股份无限无责任公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright&copy;2020-????</div>
+		</footer>
+	</body>
 </html>

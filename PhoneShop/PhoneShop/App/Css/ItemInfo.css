@@ -1,0 +1,147 @@
+.MainDiv {
+	width: 1300px;
+	padding: 150px 0;
+	margin: auto;
+	display: flex;
+}
+
+.MainDiv>div {
+	margin: 12px;
+	height: auto;
+
+}
+
+.image {
+	text-align: center;
+	width: 600px;
+}
+
+.info {
+	float: right;
+	width: 650px;
+}
+
+.image>img {
+	width: 600px;
+	height: 600px;
+}
+
+.simg {
+	/* border: 1px solid red; */
+	height: auto;
+	margin: auto;
+}
+
+.simg img {
+	width: 100px;
+	height: 100px;
+	margin: 0 5px;
+}
+
+.title {
+	height: 110px;
+	border-bottom: 1px solid #A9A9A9;
+}
+
+.title .name {
+	font-size: 40px;
+	margin: 20px;
+}
+
+.title .intro {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 20px;
+	color: gray;
+}
+
+.title .price {
+	color: #FF7F50;
+	font-size: 28px;
+	float: right;
+	margin-top: 10px;
+}
+
+.prop *:focus {
+	outline: none;
+}
+
+.prop .color span,
+.prop .count span {
+	font-size: 18px;
+	color: gray;
+	display: block;
+	margin: 15px;
+	margin-left: 0;
+}
+
+.prop .color button {
+	border: 1px solid darkgray;
+	padding: 10px 0;
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px 20px 10px 0;
+	width: 230px;
+}
+
+.prop .count {
+	margin-top: 20px;
+	height: 100px;
+	font-size: 0;
+}
+
+.prop .count input {
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid lightgray;
+	height: 42px;
+	width: 65px;
+}
+
+.prop .count button {
+	font-size: 15px;
+	border: 1px solid lightgray;
+	width: 40px;
+	height: 42px;
+	background-color: white;
+}
+
+.pay {
+	margin-top: 30px;
+}
+
+.pay .price {
+	color: red;
+	font-size: 30px;
+}
+
+.pay .price:after {
+	margin: 0 25px;
+	content: '';
+	border-right: 1px solid lightgray;
+}
+
+.pay .selectInfo {
+	color: gray;
+	float: right;
+}
+
+.button button:first-child{
+	background-color: red;
+}
+
+.pay button {
+	display: inline-block;
+	background-color: rgb(68, 68, 68);
+	color: white;
+	width: 180px;
+	padding: 10px 0;
+	margin: 30px 0;
+	border-radius: 30px;
+	border: 0 solid;
+}
+
+.simg:hover,
+button:hover {
+	cursor: pointer;
+}

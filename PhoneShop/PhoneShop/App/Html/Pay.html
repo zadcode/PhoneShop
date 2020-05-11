@@ -1,10 +1,102 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../Js/JQuery.js"></script>
+		<script src="../Js/bootstrap.min.js"></script>
+		<script src="../Js/bootstrap.bundle.min.js"></script>
+		<script src="../Js/Global.js"></script>
+		<script src="../Js/Cart.js"></script>
+		<link rel="stylesheet" href="../Css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../Css/Global.css" />
+		<link rel="stylesheet" href="../Css/Cart.css" />
+		<link rel="stylesheet" href="../Css/Pay.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top topBar">
+			<a class="navbar-brand mr-auto" href="HomePage.html">爱机商城</a>
+			<ul class="navbar-nav">
+				<li class="nav-item" id="loginBtn">
+					<a class="nav-link" href="Login.html">登录/注册</a>
+				</li>
+				<li class="nav-item" id="cartBtn">
+					<a class="nav-link" href="#">购物车</a>
+				</li>
+				<li class="nav-item" id="favorBtn">
+					<a class="nav-link" href="#">收藏</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="container MainDiv">
+			<div class="address">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">收货地址</span>
+					</div>
+					<input type="text" class="form-control" placeholder="address">
+				</div>
+			</div>
+			<div class="brand">
+				<div class="b_title">
+					<div class="input-group-text">
+						<!-- <input type="checkbox" name="selectAll"> -->
+						<h1 class="display-4">小米</h1>
+					</div>
+				</div>
+				<div class="b_items container">
+					<div class="item">
+						<!-- <input type="checkbox"> -->
+						<img src="../Res/apple/iPhone%20XR-黄色.jpg" />
+						<!-- <span class="time">20202020</span> -->
+						<span class="name">名称名称名称</span>
+						<span class="price">价格</span>
+						<span class="color">颜色 红黄蓝</span>
+						<input class="count" type="number" readonly="readonly" min="1" value="1" />
 
-</body>
+					</div>
+					<div class="item">
+						<!-- <input type="checkbox"> -->
+						<img src="../Res/apple/iPhone%20XR-黄色.jpg" />
+						<!-- <span class="time">20202020</span> -->
+						<span class="name">名称名称名称</span>
+						<span class="price">价格</span>
+						<span class="color">颜色 红黄蓝</span>
+						<input class="count" type="number" readonly="readonly" min="1" value="1" />
+
+					</div>
+				</div>
+			</div>
+			<div class="brand">
+				<div class="b_title">
+					<div class="input-group-text">
+						<!-- <input type="checkbox" name="selectAll"> -->
+						<h1 class="display-4">华为</h1>
+					</div>
+				</div>
+				<div class="b_items container">
+					<div class="item">
+						<!-- <input type="checkbox"> -->
+						<img src="../Res/apple/iPhone%20XR-黄色.jpg" />
+						<!-- <span class="time">20202020</span> -->
+						<span class="name">名称名称名称</span>
+						<span class="price">价格</span>
+						<span class="color">颜色 红黄蓝</span>
+						<input class="count" type="number" readonly="readonly" min="1" value="1" />
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-sm justify-content-end navbar-light fixed-bottom bottomBar">
+				<ul class="navbar-nav">
+
+					<li class="nav-item">
+						<span class="navbar-text">共计</span>
+					</li>
+					<li class="nav-item">
+						<button class="btn btn-success buyBtn" type="button">支付</button>
+					</li>
+				</ul>
+			</nav>
+
+	</body>
 </html>

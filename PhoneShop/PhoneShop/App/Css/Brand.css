@@ -1,0 +1,41 @@
+.brand{
+	font-size: 40px;
+	margin-left: 50px;
+}
+
+.div_main{
+	margin-top: 150px;
+}
+
+.brandBtn{
+		margin: 25px 50px;	
+}
+
+.brandBtn .btn{
+	background-color: rgb(52,58,64);
+	border-color: rgb(52,58,64);
+		
+}
+
+.brandBtn .btn:focus,.brandBtn btn:active{
+	box-shadow: none;
+}
+
+.items{
+	width: 1400px;	
+	min-width: 1400px;
+}
+
+.itemcard{	
+	width:300px;
+	display: inline-block;
+	margin: 20px 30px;
+	transition: all 0.2s;
+}
+
+.itemcard:hover{
+	cursor: pointer;
+	box-shadow:lightgray 0 0 15px 2px ; 
+	transform: scale(1.01);
+}
+

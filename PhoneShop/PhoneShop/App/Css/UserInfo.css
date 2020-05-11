@@ -1,0 +1,17 @@
+.container{
+	margin-top:100px;
+	display: flex;		
+}
+
+.nBar{
+	width: 15%;
+	text-align: center;
+}
+
+.funcArea{
+	height:auto;
+	width: 85%;
+	height: 85vh;
+	border: none;		
+	
+}

@@ -1,0 +1,58 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.nav_more {
+	margin-top: 50px;
+}
+
+.div_main {
+	margin-top: 150px;
+	width: 1200px;
+	height: auto;
+}
+
+.rota_pic img {
+	width: 100%;
+}
+
+.brand {
+	margin: 40px 0;
+}
+
+.item_bar {
+	height: 60px;
+	line-height: 60px;
+}
+
+.bar_brand {
+	cursor: default;
+	color: rgb(52,58,64) !important;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+.bar_more{
+	cursor: po;
+	color: gray !important;
+	margin-right: 20px;
+	margin-top: 5px;
+	/* float: right; */
+}
+
+.item {
+	background: none;
+}
+
+.itemcard {
+	width: 250px;
+	text-align: center;
+	border: none;
+	transition: all 0.2s;
+}
+
+.itemcard:hover{
+	cursor: pointer;
+	box-shadow:lightgray 0 0 15px 2px ; 
+	transform: scale(1.01);
+}

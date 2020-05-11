@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../Js/JQuery.js"></script>
+		<script src="../Js/bootstrap.min.js"></script>
+		<script src="../Js/bootstrap.bundle.min.js"></script>
+		<script src="../Js/Global.js"></script>
+		<script src="../Js/Register.js"></script>
+		<link rel="stylesheet" href="../Css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../Css/Global.css" />
+		<link rel="stylesheet" href="../Css/Login.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top topBar">
+			<a class="navbar-brand mr-auto" href="HomePage.html">爱机商城</a>
+			<ul class="navbar-nav">
+				<li class="nav-item" id="loginBtn">
+					<a class="nav-link" href="Login.html">登录/注册</a>
+				</li>
+				<li class="nav-item" id="cartBtn">
+					<a class="nav-link" href="#">购物车</a>
+				</li>
+				<li class="nav-item" id="favorBtn">
+					<a class="nav-link" href="#">收藏</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="container MainDiv">
+
+			<div class="registerf login_form">
+				<div class="btn-group btn-group-lg lrBtn">
+					<button type="button" class="btn btn-outline-primary " onclick="window.open('Login.html','_self')">登录</button>
+					<button type="button" class="btn btn-outline-primary" disabled="">注册</button>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="手机号" id="uid" data-toggle="tooltip" data-placement="right" title="请输入11位手机号">
+					<div class="alert alert-danger" id="uid_alert"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="密码" id="pwd" data-toggle="tooltip" data-placement="right" title="请输入6-12位英文或数字">
+					<div class="alert alert-danger" id="pwd_alert"></div>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="确认密码" id="pwd2" data-toggle="tooltip" data-placement="right" title="请再次输入之前的密码">
+					<div class="alert alert-danger" id="pwd2_alert"></div>
+				</div>
+
+				<button type="button" class="btn btn-primary loginBtn" id="loginBtn" onclick="Register()">注册</button><br />
+			</div>
+		</div>
+
+		</div>
+
+		<footer>
+			<div class="line"></div>
+			<div class="footer_text">中原工股份无限无责任公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright&copy;2020-????</div>
+		</footer>
+
+	</body>
+</html>

@@ -1,0 +1,81 @@
+.MainDiv {
+	margin-top: 140px;
+	margin-bottom: 60px;
+	background-image: url(../Res/other/loginbmg.jpg);
+	background-position: -500px;
+	height: 600px;
+	max-width: 2000px;
+}
+
+.login_form {	
+	margin-top: 100px;
+	width: 400px;
+	background-color: white;
+	position: absolute;
+	margin-left: 1100px;
+	padding: 20px;
+	text-align: center;
+}
+
+.registerf{
+	margin-top: 65px;	
+}
+
+.MainDiv .alert {
+	height: 30px;
+	padding: 2px;
+	text-align: center;
+}
+
+.MainDiv label {
+	display: inline-block;
+}
+
+
+.MainDiv .form-group {
+	width: 300px;
+	margin: 10px auto 0 auto;
+	height: 75px;
+}
+
+.MainDiv .alert {
+	margin-top: 5px;
+}
+
+.loginBtn {
+	margin-top: 10px;
+	width: 200px;	
+}
+
+.findpwd{
+	font-size: 14px;
+}
+
+.lrBtn{
+	text-align: center;
+	margin: 15px 0 35px 0;
+}
+
+.lrBtn .btn{
+	width: 150px;	
+	border: none;
+}
+
+.lrBtn .btn:first-child{
+	border-right: 1px solid #007bff;
+}
+
+.cCode{
+	margin-top: 10px;
+	background: none !important;
+}
+
+.cCode_alert{
+	width: 300px;
+	margin: auto;
+}
+
+.cCode input{
+	width:160px !important;
+	flex:0 1 auto !important;
+}

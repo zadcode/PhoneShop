@@ -1,10 +1,74 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../Js/JQuery.js"></script>
+		<script src="../Js/bootstrap.bundle.min.js"></script>
+		<script src="../Js/bootstrap.min.js"></script>
+		<script src="../Js/Global.js"></script>
+		<script src="../Js/HistoryOrder.js"></script>
+		<link rel="stylesheet" href="../Css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../Css/Global.css" />
+		<link rel="stylesheet" href="../Css/HistoryOrder.css" />
+	</head>
+	<body>
+		<div class="container orderDiv">
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					排序方式
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Link 1</a>
+					<a class="dropdown-item" href="#">Link 2</a>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+			</div>
+			<div class="brand">
+				<div class="b_title">
+					<div class="input-group-text">
+						<h1>小米</h1>
+						<div class="time">2020-02-02</div>
+						  <button type="button" class="btn btn-primary order" disabled>待发货</button>
+					</div>
+				</div>
+				<div class="b_items container">
+					<div class="item">
+						<img src="../Res/apple/iPhone%20XR-黄色.jpg" />
+						<span class="name">名称名称名称</span>
+						<span class="price">价格</span>
+						<span class="color">颜色 红黄蓝</span>
+						<input class="count" type="number" readonly="readonly" min="1" value="1" />
 
-</body>
+					</div>
+					<div class="item">
+						<img src="../Res/apple/iPhone%20XR-黄色.jpg" />
+						<span class="name">名称名称名称</span>
+						<span class="price">价格</span>
+						<span class="color">颜色 红黄蓝</span>
+						<input class="count" type="number" readonly="readonly" min="1" value="1" />
+
+					</div>
+				</div>
+			</div>
+			<div class="brand">
+				<div class="b_title">
+					<div class="input-group-text">
+						<h1>华为</h1>
+						<div class="time">2020-02-02</div>
+						<button type="button" class="btn btn-primary order" disabled>待发货</button>
+					</div>
+				</div>
+				<div class="b_items container">
+					<div class="item">
+						<img src="../Res/apple/iPhone%20XR-黄色.jpg" />
+						<span class="name">名称名称名称</span>
+						<span class="price">价格</span>
+						<span class="color">颜色 红黄蓝</span>
+						<input class="count" type="number" readonly="readonly" min="1" value="1" />
+					</div>
+				</div>
+			</div>
+
+	</body>
 </html>

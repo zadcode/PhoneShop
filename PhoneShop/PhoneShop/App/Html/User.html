@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../Js/JQuery.js"></script>
+		<script src="../Js/bootstrap.min.js"></script>
+		<script src="../Js/bootstrap.bundle.min.js"></script>
+		<script src="../Js/Global.js"></script>
+		<script src="../Js/User.js"></script>
+		<link rel="stylesheet" href="../Css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../Css/Global.css" />
+		<link rel="stylesheet" href="../Css/Cart.css" />
+		<link rel="stylesheet" href="../Css/User.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text">昵称</span>
+				</div>
+				<input type="text" class="form-control" readonly="readonly">
+				<div class="input-group-append">					
+					<button class="btn btn-primary" type="button" id="okname" onclick="Okname()">确认修改</button>
+					<button class="btn btn-danger" type="button" id="cancelname" onclick="Canelname()">取消修改</button>
+					<button class="btn btn-success" type="submit" id="changename" onclick="Changename(this)">更改昵称</button>
+				</div>
+			</div>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text">收货地址</span>
+				</div>
+				<input type="text" class="form-control" readonly='readonly'>
+				<div class="input-group-append">
+					<button class="btn btn-primary" type="button" id="okaddress" onclick="Okaddress()">确认修改</button>
+					<button class="btn btn-danger" type="button" id="canceladdress" onclick="Caneladdress()">取消修改</button>
+					<button class="btn btn-success" type="submit" id="changeaddress" onclick="Changeaddress(this)">更改昵称</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
